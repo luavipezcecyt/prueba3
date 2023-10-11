@@ -1,0 +1,14 @@
+package controlDeAccesos;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestConexion {
+
+	@Test
+	void testConsultarReg() {
+		fail("Not yet implemented");
+	}
+
+}

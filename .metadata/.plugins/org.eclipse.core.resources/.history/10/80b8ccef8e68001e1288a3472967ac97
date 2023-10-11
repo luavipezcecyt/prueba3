@@ -1,0 +1,16 @@
+package controlDeAccesos;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestConexion {
+
+	@Test
+	void testConsultarReg() {
+		RegistroDAO rd = new RegistroDAO();
+		Registro r = rd.consultarReg(100);
+		assertNull(r);
+	}
+
+}

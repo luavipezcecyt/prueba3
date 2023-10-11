@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestConexion" project="controlDeAccesos" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="controlDeAccesos.TestConexion" time="3.195" displayname="TestConexion" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestConexion]">
+    <testcase name="testConsultarRegError" classname="controlDeAccesos.TestConexion" time="1.984" displayname="testConsultarRegError()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestConexion]/[method:testConsultarRegError()]"/>
+    <testcase name="testConsultarReg" classname="controlDeAccesos.TestConexion" time="1.21" displayname="testConsultarReg()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestConexion]/[method:testConsultarReg()]"/>
+  </testsuite>
+</testrun>

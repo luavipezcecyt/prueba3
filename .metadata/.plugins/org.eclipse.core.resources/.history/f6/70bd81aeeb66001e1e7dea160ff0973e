@@ -1,0 +1,77 @@
+package controlDeAccesos;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.swing.JOptionPane;
+
+public class RegistroDAO {
+
+	private Connection con;
+	PreparedStatement ps;
+	ResultSet rs;
+	private Connection conectar() {
+		String url="jdbc:mysql://localhost:3306/accesos510";
+		String usuario ="root";
+		String contrasena ="";
+		try {
+			con = DriverManager.getConnection(url,usuario,contrasena);
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null,"Error al conectar " +e);
+		}		
+		return con;
+	}
+	
+	public boolean guardarRegistro(Registro r) {
+		boolean guarda = false;
+		String sql = "insert into registros values(0,?,?,?,?)";
+			conectar();	
+			try {
+				ps = con.prepareStatement(sql);
+				ps.setInt(1, r.getCodAcc());
+				ps.setString(2, r.getNombre());
+				ps.setString(3, r.getFecha());
+				ps.setString(4, r.getHora());
+				int g = ps.executeUpdate();
+				if(g>0) {
+					JOptionPane.showMessageDialog(null, "Guardado");
+					guarda = true;
+				}else {
+					JOptionPane.showMessageDialog(null, "No guardado");
+				}
+				ps.close();
+				con.close();
+			} catch (SQLException e) {
+				JOptionPane.showMessageDialog(null, "Error al guardar "+e);
+			}	
+		return guarda;
+	}
+
+	public Registro consultarReg(int cod) {
+		Registro r = new Registro();
+		String query = "Select * from registros where codacc = ?";
+		conectar();
+		try {
+			ps = con.prepareStatement(query);
+			ps.setInt(1,cod);
+			rs = ps.executeQuery();
+			if(rs.next()) {
+				r.setId(rs.getInt(1));
+				r.setCodAcc(rs.getInt(2));
+				r.setNombre(rs.getString(3));
+				r.setFecha(rs.getString(4));
+				r.setHora(rs.getString(5));
+			}else {
+				JOptionPane.showMessageDialog(null, "No existe el registro");
+			}
+		} catch (SQLException e) {
+			JOptionPane.showMessageDialog(null,"Error al consultar " +e);
+		}
+		return r;
+	}
+	
+	
+}

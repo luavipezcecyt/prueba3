@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PruebaEliminarRegistro" project="controlDeAccesos" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="controlDeAccesos.PruebaEliminarRegistro" time="0.031" displayname="PruebaEliminarRegistro" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]">
+    <testcase name="testEliminarRegistro" classname="controlDeAccesos.PruebaEliminarRegistro" time="0.031" displayname="testEliminarRegistro()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]/[method:testEliminarRegistro()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:134)&#13;
+	at controlDeAccesos.PruebaEliminarRegistro.testEliminarRegistro(PruebaEliminarRegistro.java:11)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

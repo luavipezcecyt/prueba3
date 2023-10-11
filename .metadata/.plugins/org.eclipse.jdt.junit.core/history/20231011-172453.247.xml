@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGuardarRegistro" project="controlDeAccesos" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="controlDeAccesos.TestGuardarRegistro" time="5.007" displayname="TestGuardarRegistro" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestGuardarRegistro]">
+    <testcase name="testGuardarRegistro" classname="controlDeAccesos.TestGuardarRegistro" time="5.007" displayname="testGuardarRegistro()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestGuardarRegistro]/[method:testGuardarRegistro()]"/>
+  </testsuite>
+</testrun>

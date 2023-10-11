@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestGuardarRegistro" project="controlDeAccesos" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="controlDeAccesos.TestGuardarRegistro" time="3.787" displayname="TestGuardarRegistro" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestGuardarRegistro]">
+    <testcase name="testGuardarRegistroError" classname="controlDeAccesos.TestGuardarRegistro" time="2.524" displayname="testGuardarRegistroError()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestGuardarRegistro]/[method:testGuardarRegistroError()]">
+      <failure>org.opentest4j.AssertionFailedError: expected: not equal but was: &lt;true&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:277)&#13;
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:263)&#13;
+	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:258)&#13;
+	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:2815)&#13;
+	at controlDeAccesos.TestGuardarRegistro.testGuardarRegistroError(TestGuardarRegistro.java:30)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testGuardarRegistro" classname="controlDeAccesos.TestGuardarRegistro" time="1.262" displayname="testGuardarRegistro()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.TestGuardarRegistro]/[method:testGuardarRegistro()]"/>
+  </testsuite>
+</testrun>

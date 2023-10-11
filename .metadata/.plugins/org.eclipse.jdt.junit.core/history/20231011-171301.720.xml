@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PruebaEliminarRegistro" project="controlDeAccesos" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="controlDeAccesos.PruebaEliminarRegistro" time="2.162" displayname="PruebaEliminarRegistro" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]">
+    <testcase name="testEliminarRegistro" classname="controlDeAccesos.PruebaEliminarRegistro" time="2.162" displayname="testEliminarRegistro()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]/[method:testEliminarRegistro()]"/>
+  </testsuite>
+</testrun>

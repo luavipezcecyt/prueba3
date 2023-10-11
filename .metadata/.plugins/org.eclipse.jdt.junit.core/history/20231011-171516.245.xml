@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PruebaEliminarRegistro" project="controlDeAccesos" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="controlDeAccesos.PruebaEliminarRegistro" time="5.006" displayname="PruebaEliminarRegistro" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]">
+    <testcase name="testEliminarRegistroError" classname="controlDeAccesos.PruebaEliminarRegistro" time="3.583" displayname="testEliminarRegistroError()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]/[method:testEliminarRegistroError()]">
+      <error>java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.con" is null&#13;
+	at controlDeAccesos.RegistroDAO.eliminarRegistro(RegistroDAO.java:112)&#13;
+	at controlDeAccesos.PruebaEliminarRegistro.testEliminarRegistroError(PruebaEliminarRegistro.java:21)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testEliminarRegistro" classname="controlDeAccesos.PruebaEliminarRegistro" time="1.422" displayname="testEliminarRegistro()" uniqueid="[engine:junit-jupiter]/[class:controlDeAccesos.PruebaEliminarRegistro]/[method:testEliminarRegistro()]">
+      <error>java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.con" is null&#13;
+	at controlDeAccesos.RegistroDAO.eliminarRegistro(RegistroDAO.java:112)&#13;
+	at controlDeAccesos.PruebaEliminarRegistro.testEliminarRegistro(PruebaEliminarRegistro.java:13)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
